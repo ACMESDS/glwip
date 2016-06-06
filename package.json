@@ -1,0 +1,22 @@
+{
+  "name": "graceful-lwip",
+  "version": "1.0.0",
+  "description": "Wrap the nodejs LWIP (light weight imaging package) to gracefully work around the limitations of NodeJS file recursion",
+  "main": "graceful-lwip.js",
+  "dependencies": {
+    "lwip": "0.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.geointapps.org:geoproto/graceful-lwip.git"
+  },
+  "keywords": [
+    "lwip"
+  ],
+  "author": "ACME SDS",
+  "license": "ISC"
+}
