@@ -1,7 +1,7 @@
 // UNCLASSIFIED
 
 /**
- * @class GEONODE.GRACEFUL-LWIP
+ * @modue GRACEFUL-LWIP
  * @requires LWIP
  * 
  * Gracefully wraps the LWIP to provide a work-around to nodejs open file limits.
