@@ -1,22 +1,20 @@
-# Totem GRACEFUL-LWIP
+/**
+@class graceful-lwip [![Forked from SourceForge](https://sourceforge.net)]
+# GRACEFUL-LWIP
 
-[![Forked from SourceForge](https://sourceforge.net)]
-
-[Totem](https://git.geointapps.org/acmesds/transfer)'s GRACEFUL-LWIP module wraps
-the NodeJS LWIP to provide a work-around to nodejs open file limits.
+The GRACEFUL-LWIP module wraps the NodeJS LWIP to provide a work-around to nodejs open file limits.
 
 ## Installation
 
-Download and unzip into your project/totem folder and revise the project/config module as needed
-for your [Totem](https://git.geointapps.org/acmesds/transfer) project.  Typically, you will
-want to:
+Download the latest version with
 
-	ln -s ../config/debe.sh config.sh
-	ln -s ../config/maint.sh maint.sh
-	ln -s ../config/certs certs
+	git clone https://git.geointapps.org/acmesds/graceful-lwip
+
+Typically, you will want to redirect the following to your project/master
+
+	ln -s ../master/test.js test.js
+	ln -s ../master/maint.sh maint.sh
 	
-to override the defaults.
-
 ## Usage
 
 	LWIP = require("graceful-lwip");
@@ -26,3 +24,5 @@ Adjust the default LWIP.maxFilesInFlight = 100 as needed.  See NodeJS LWIP for L
 ## License
 
 [MIT](LICENSE)
+
+*/

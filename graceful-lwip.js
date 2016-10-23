@@ -1,10 +1,8 @@
 // UNCLASSIFIED
 
 /**
- * @modue GRACEFUL-LWIP
- * @requires LWIP
- * 
- * Gracefully wraps the LWIP to provide a work-around to nodejs open file limits.
+ * @class graceful-lwip
+ * @requires lwip
  * */
  
 var LWIP = module.exports = require("lwip");
