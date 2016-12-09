@@ -2,7 +2,7 @@
 @class graceful-lwip [![Forked from SourceForge](https://sourceforge.net)]
 # GRACEFUL-LWIP
 
-The GRACEFUL-LWIP module wraps the NodeJS LWIP to provide a work-around to nodejs open file limits.
+GRACEFUL-LWIP wraps LWIP to allow many open nodejs files.
 
 ## Installation
 
@@ -19,7 +19,8 @@ Typically, you will want to redirect the following to your project/master
 
 	LWIP = require("graceful-lwip");
 	
-Adjust the default LWIP.maxFilesInFlight = 100 as needed.  See NodeJS LWIP for LWIP usage.
+Adjust the default LWIP.maxFilesInFlight = 100 as needed.  As GRACEFUL-LWIP works under the covers, so there are no methods other than
+those provided by LWIP.
 
 ## License
 
