@@ -1,8 +1,8 @@
 {
-  "name": "lwip",
+  "name": "glwip",
   "version": "1.0.0",
   "description": "Wrap the nodejs LWIP (light weight imaging package) to gracefully work around the limitations of NodeJS file recursion",
-  "main": "lwip.js",
+  "main": "glwip.js",
   "dependencies": {
     "lwip": "0.0.9"
   },
