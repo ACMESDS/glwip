@@ -1,14 +1,14 @@
 /**
 @class graceful-lwip [![Forked from SourceForge](https://sourceforge.net)]
-# GRACEFUL-LWIP
+# LWIP
 
-GRACEFUL-LWIP wraps LWIP to allow many open nodejs files.
+Wraps LWIP to gracefully allow many open nodejs files.
 
 ## Installation
 
 Download the latest version with
 
-	git clone https://git.geointapps.org/acmesds/graceful-lwip
+	git clone https://git.geointapps.org/acmesds/lwip
 
 Typically, you will want to redirect the following to your project/master
 
@@ -17,9 +17,9 @@ Typically, you will want to redirect the following to your project/master
 	
 ## Usage
 
-	LWIP = require("graceful-lwip");
+	LWIP = require("lwip");
 	
-Adjust the default LWIP.maxFilesInFlight = 100 as needed.  As GRACEFUL-LWIP works under the covers, so there are no methods other than
+Adjust the default LWIP.maxFilesInFlight = 100 as needed.  As LWIP works under the covers, so there are no methods other than
 those provided by LWIP.
 
 ## License
